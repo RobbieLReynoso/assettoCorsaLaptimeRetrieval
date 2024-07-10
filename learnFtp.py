@@ -6,7 +6,7 @@ ROOT_LOCAL = r'C:\Users\rreyn\Desktop\python1\ACC\data\\'
 
 ssh = SSHClient()
 ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-ssh.connect("accweb.tigerwoodsraceway.com", port=6969, username="ftp_wobba", password="seanisawesome")
+ssh.connect("redacted", port=redacted, username="redacted", password="redacted")
 
 #scp = SCPClient(ssh.get_transport())
 #scp.get
